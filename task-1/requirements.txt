@@ -1,0 +1,12 @@
+langchain-text-splitters
+langchain-community
+langchain-openai
+langchain-core
+langchain
+chromadb
+openai
+python-dotenv
+schedule
+requests
+beautifulsoup4
+tiktoken
