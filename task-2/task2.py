@@ -9,17 +9,30 @@ import os
 import streamlit as st
 from PIL import Image
 import google.generativeai as genai
-from dotenv import load_dotenv
-
-load_dotenv()
 
 # ── API Setup ──────────────────────────────────────────────
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyB95qImrzm1mvtSS5-x564AiVdVJIt_17c")
+# Reads the key from (in order of preference):
+#   1. Streamlit Cloud "Secrets" (st.secrets) - used when deployed
+#   2. A local .env file / environment variable - used when running locally
+# NEVER hardcode a real API key directly in the source code.
+GOOGLE_API_KEY = st.secrets.get("AQ.Ab8RN6LbOBGQ0ilvONi05iLc2OtnxQdMvDio4-W6-XEncMioRw", os.getenv("AQ.Ab8RN6LbOBGQ0ilvONi05iLc2OtnxQdMvDio4-W6-XEncMioRw", ""))
+
+if not GOOGLE_API_KEY:
+    st.error(
+        "No Gemini API key found. Add GOOGLE_API_KEY to your Streamlit Cloud "
+        "'Secrets' (Manage app > Settings > Secrets) or to a local .env file."
+    )
+    st.stop()
+
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # ── Models ─────────────────────────────────────────────────
-vision_model = genai.GenerativeModel("gemini-1.5-flash")
-text_model   = genai.GenerativeModel("gemini-1.5-flash")
+# gemini-1.5-flash has been fully shut down by Google as of 2026.
+# gemini-flash-latest is an auto-updating alias that currently points to
+# Gemini 3.5 Flash (GA) - it will keep working as Google upgrades models
+# behind the scenes, so you won't need to touch this again for a while.
+vision_model = genai.GenerativeModel("gemini-flash-latest")
+text_model   = genai.GenerativeModel("gemini-flash-latest")
 
 # ── Page Config ────────────────────────────────────────────
 st.set_page_config(
@@ -47,7 +60,7 @@ with st.sidebar:
     uploaded_file = st.file_uploader("Upload an image (optional)", type=["jpg", "jpeg", "png"])
     if uploaded_file:
         image = Image.open(uploaded_file)
-        st.image(image, caption="Uploaded Image", use_column_width=True)
+        st.image(image, caption="Uploaded Image", use_container_width=True)
         st.session_state.last_image = image
     if st.button("🗑️ Clear Conversation"):
         st.session_state.chat_history = []
