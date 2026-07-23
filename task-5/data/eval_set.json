@@ -1,0 +1,22 @@
+[
+  {"text": "This product is amazing, exactly what I needed!", "label": "positive"},
+  {"text": "Thank you so much for the quick help, really appreciate it.", "label": "positive"},
+  {"text": "Great service, will definitely order again.", "label": "positive"},
+  {"text": "I love how easy this was to set up.", "label": "positive"},
+  {"text": "Excellent support, you guys are the best.", "label": "positive"},
+  {"text": "This is absolutely terrible, worst purchase I've ever made.", "label": "negative"},
+  {"text": "I am so frustrated, my order still hasn't arrived after 3 weeks.", "label": "negative"},
+  {"text": "The product arrived broken and customer service has ignored me.", "label": "negative"},
+  {"text": "This is unacceptable, I want a refund immediately.", "label": "negative"},
+  {"text": "I'm really disappointed, this doesn't work at all.", "label": "negative"},
+  {"text": "Where is my order?", "label": "neutral"},
+  {"text": "Can you tell me your return policy?", "label": "neutral"},
+  {"text": "What sizes does this come in?", "label": "neutral"},
+  {"text": "How do I reset my password?", "label": "neutral"},
+  {"text": "I need to update my shipping address.", "label": "neutral"},
+  {"text": "Not sure if this is the right size for me, any advice?", "label": "neutral"},
+  {"text": "Ugh, this is so annoying, nothing is working right.", "label": "negative"},
+  {"text": "You guys are lifesavers, thank you!!", "label": "positive"},
+  {"text": "Can you check on the status of order #4521?", "label": "neutral"},
+  {"text": "Horrible experience, I will never shop here again.", "label": "negative"}
+]
