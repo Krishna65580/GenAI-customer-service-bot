@@ -1,0 +1,290 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "hi": "Hindi"
+  },
+  "intents": {
+    "greeting": {
+      "keywords": {
+        "en": [
+          "hi",
+          "hello",
+          "hey",
+          "good morning",
+          "good evening"
+        ],
+        "es": [
+          "hola",
+          "buenas",
+          "buenos días",
+          "buenas tardes"
+        ],
+        "fr": [
+          "bonjour",
+          "salut",
+          "bonsoir"
+        ],
+        "hi": [
+          "नमस्ते",
+          "हैलो",
+          "हाय"
+        ]
+      },
+      "response": {
+        "en": "Hi! How can I help you today?",
+        "es": "¡Hola! ¿Cómo puedo ayudarte hoy?",
+        "fr": "Bonjour ! Comment puis-je vous aider aujourd'hui ?",
+        "hi": "नमस्ते! मैं आज आपकी कैसे मदद कर सकता हूँ?"
+      }
+    },
+    "order_status": {
+      "keywords": {
+        "en": [
+          "where is my order",
+          "track my order",
+          "order status",
+          "tracking number",
+          "my order"
+        ],
+        "es": [
+          "dónde está mi pedido",
+          "rastrear mi pedido",
+          "estado del pedido",
+          "número de seguimiento",
+          "mi pedido"
+        ],
+        "fr": [
+          "où est ma commande",
+          "suivre ma commande",
+          "statut de la commande",
+          "numéro de suivi",
+          "ma commande"
+        ],
+        "hi": [
+          "मेरा ऑर्डर कहाँ है",
+          "ऑर्डर ट्रैक करें",
+          "ऑर्डर की स्थिति",
+          "ट्रैकिंग नंबर",
+          "मेरा ऑर्डर"
+        ]
+      },
+      "response": {
+        "en": "You can track your order using the tracking number sent to your email. Standard delivery takes 5-7 business days.",
+        "es": "Puedes rastrear tu pedido usando el número de seguimiento enviado a tu correo electrónico. La entrega estándar tarda de 5 a 7 días hábiles.",
+        "fr": "Vous pouvez suivre votre commande à l'aide du numéro de suivi envoyé par e-mail. La livraison standard prend 5 à 7 jours ouvrables.",
+        "hi": "आप अपने ईमेल पर भेजे गए ट्रैकिंग नंबर से अपने ऑर्डर को ट्रैक कर सकते हैं। मानक डिलीवरी में 5-7 कार्य दिवस लगते हैं।"
+      }
+    },
+    "refund": {
+      "keywords": {
+        "en": [
+          "refund",
+          "money back",
+          "return my order",
+          "want a refund",
+          "refund policy"
+        ],
+        "es": [
+          "reembolso",
+          "devolver mi dinero",
+          "devolver mi pedido",
+          "política de reembolso"
+        ],
+        "fr": [
+          "remboursement",
+          "rendre mon argent",
+          "retourner ma commande",
+          "politique de remboursement"
+        ],
+        "hi": [
+          "रिफंड",
+          "पैसे वापस",
+          "ऑर्डर वापस करना",
+          "रिफंड नीति"
+        ]
+      },
+      "response": {
+        "en": "We offer refunds within 30 days of purchase for unused items. Please contact support with your order number to start the process.",
+        "es": "Ofrecemos reembolsos dentro de los 30 días posteriores a la compra para artículos no utilizados. Por favor, contacta a soporte con tu número de pedido para iniciar el proceso.",
+        "fr": "Nous offrons des remboursements dans les 30 jours suivant l'achat pour les articles non utilisés. Veuillez contacter le support avec votre numéro de commande pour commencer le processus.",
+        "hi": "हम खरीद के 30 दिनों के भीतर बिना इस्तेमाल किए गए सामान के लिए रिफंड देते हैं। प्रक्रिया शुरू करने के लिए कृपया अपने ऑर्डर नंबर के साथ सहायता टीम से संपर्क करें।"
+      }
+    },
+    "shipping_time": {
+      "keywords": {
+        "en": [
+          "shipping time",
+          "how long does shipping take",
+          "delivery time",
+          "delivery",
+          "shipping"
+        ],
+        "es": [
+          "tiempo de envío",
+          "cuánto tarda el envío",
+          "tiempo de entrega",
+          "envío",
+          "entrega"
+        ],
+        "fr": [
+          "délai de livraison",
+          "combien de temps prend la livraison",
+          "temps de livraison",
+          "livraison"
+        ],
+        "hi": [
+          "शिपिंग समय",
+          "डिलीवरी में कितना समय लगता है",
+          "डिलीवरी का समय",
+          "डिलीवरी",
+          "शिपिंग"
+        ]
+      },
+      "response": {
+        "en": "Standard shipping takes 5-7 business days. Express shipping (2-3 days) is available at checkout for an extra fee.",
+        "es": "El envío estándar tarda de 5 a 7 días hábiles. El envío exprés (2-3 días) está disponible al finalizar la compra por una tarifa adicional.",
+        "fr": "La livraison standard prend 5 à 7 jours ouvrables. La livraison express (2-3 jours) est disponible lors du paiement moyennant des frais supplémentaires.",
+        "hi": "मानक शिपिंग में 5-7 कार्य दिवस लगते हैं। एक्सप्रेस शिपिंग (2-3 दिन) चेकआउट पर अतिरिक्त शुल्क देकर उपलब्ध है।"
+      }
+    },
+    "payment_methods": {
+      "keywords": {
+        "en": [
+          "payment methods",
+          "how can i pay",
+          "which cards do you accept",
+          "payment",
+          "pay"
+        ],
+        "es": [
+          "métodos de pago",
+          "cómo puedo pagar",
+          "qué tarjetas aceptan",
+          "pago"
+        ],
+        "fr": [
+          "moyens de paiement",
+          "comment puis-je payer",
+          "quelles cartes acceptez-vous",
+          "paiement"
+        ],
+        "hi": [
+          "भुगतान के तरीके",
+          "मैं भुगतान कैसे करूँ",
+          "आप कौन से कार्ड स्वीकार करते हैं",
+          "भुगतान"
+        ]
+      },
+      "response": {
+        "en": "We accept Visa, MasterCard, American Express, PayPal, and UPI. All transactions are secured with 256-bit SSL encryption.",
+        "es": "Aceptamos Visa, MasterCard, American Express, PayPal y UPI. Todas las transacciones están protegidas con encriptación SSL de 256 bits.",
+        "fr": "Nous acceptons Visa, MasterCard, American Express, PayPal et UPI. Toutes les transactions sont sécurisées par un cryptage SSL 256 bits.",
+        "hi": "हम Visa, MasterCard, American Express, PayPal, और UPI स्वीकार करते हैं। सभी लेनदेन 256-बिट SSL एन्क्रिप्शन से सुरक्षित हैं।"
+      }
+    },
+    "password_reset": {
+      "keywords": {
+        "en": [
+          "reset my password",
+          "forgot password",
+          "can't log in"
+        ],
+        "es": [
+          "restablecer mi contraseña",
+          "olvidé mi contraseña",
+          "no puedo iniciar sesión"
+        ],
+        "fr": [
+          "réinitialiser mon mot de passe",
+          "mot de passe oublié",
+          "je ne peux pas me connecter"
+        ],
+        "hi": [
+          "पासवर्ड रीसेट करें",
+          "पासवर्ड भूल गया",
+          "लॉगिन नहीं कर पा रहा"
+        ]
+      },
+      "response": {
+        "en": "Click 'Forgot Password' on the login page, enter your registered email, and follow the link sent to your inbox. The link expires in 15 minutes.",
+        "es": "Haz clic en '¿Olvidaste tu contraseña?' en la página de inicio de sesión, ingresa tu correo registrado y sigue el enlace enviado a tu bandeja de entrada. El enlace caduca en 15 minutos.",
+        "fr": "Cliquez sur « Mot de passe oublié » sur la page de connexion, saisissez votre e-mail enregistré et suivez le lien envoyé dans votre boîte de réception. Le lien expire dans 15 minutes.",
+        "hi": "लॉगिन पेज पर 'Forgot Password' पर क्लिक करें, अपना पंजीकृत ईमेल दर्ज करें, और अपने इनबॉक्स में भेजे गए लिंक का पालन करें। लिंक 15 मिनट में समाप्त हो जाता है।"
+      }
+    },
+    "damaged_item": {
+      "keywords": {
+        "en": [
+          "damaged item",
+          "product arrived broken",
+          "item is defective"
+        ],
+        "es": [
+          "artículo dañado",
+          "el producto llegó roto",
+          "el artículo está defectuoso"
+        ],
+        "fr": [
+          "article endommagé",
+          "le produit est arrivé cassé",
+          "l'article est défectueux"
+        ],
+        "hi": [
+          "क्षतिग्रस्त सामान",
+          "उत्पाद टूटा हुआ आया",
+          "सामान खराब है"
+        ]
+      },
+      "response": {
+        "en": "We're sorry to hear that. Please email a photo of the damaged item to support@company.com within 48 hours of delivery, and we'll arrange a replacement or full refund within 3-5 business days.",
+        "es": "Lamentamos escuchar eso. Envía una foto del artículo dañado a support@company.com dentro de las 48 horas posteriores a la entrega, y organizaremos un reemplazo o reembolso completo en 3-5 días hábiles.",
+        "fr": "Nous sommes désolés de l'apprendre. Veuillez envoyer une photo de l'article endommagé à support@company.com dans les 48 heures suivant la livraison, et nous organiserons un remplacement ou un remboursement complet sous 3 à 5 jours ouvrables.",
+        "hi": "हमें यह सुनकर खेद है। कृपया डिलीवरी के 48 घंटों के भीतर क्षतिग्रस्त सामान की एक फोटो support@company.com पर ईमेल करें, और हम 3-5 कार्य दिवसों के भीतर बदलाव या पूरा रिफंड की व्यवस्था करेंगे।"
+      }
+    },
+    "support_hours": {
+      "keywords": {
+        "en": [
+          "support hours",
+          "when is customer service available",
+          "are you open 24/7"
+        ],
+        "es": [
+          "horario de atención",
+          "cuándo está disponible el servicio al cliente",
+          "están abiertos 24/7"
+        ],
+        "fr": [
+          "heures d'assistance",
+          "quand le service client est-il disponible",
+          "êtes-vous ouverts 24/7"
+        ],
+        "hi": [
+          "सहायता का समय",
+          "ग्राहक सेवा कब उपलब्ध है",
+          "क्या आप 24/7 खुले हैं"
+        ]
+      },
+      "response": {
+        "en": "Our AI chatbot is available 24/7. Human agents are available Monday-Friday, 9 AM to 6 PM IST.",
+        "es": "Nuestro chatbot de IA está disponible las 24 horas, los 7 días de la semana. Los agentes humanos están disponibles de lunes a viernes, de 9 a. m. a 6 p. m. IST.",
+        "fr": "Notre chatbot IA est disponible 24h/24 et 7j/7. Les agents humains sont disponibles du lundi au vendredi, de 9h à 18h IST.",
+        "hi": "हमारा AI चैटबॉट 24/7 उपलब्ध है। मानव एजेंट सोमवार से शुक्रवार, सुबह 9 बजे से शाम 6 बजे तक (IST) उपलब्ध हैं।"
+      }
+    }
+  },
+  "clarifying_question": {
+    "en": "Could you clarify what you need help with? For example: order status, refunds, shipping, payments, or account issues.",
+    "es": "¿Podrías aclarar en qué necesitas ayuda? Por ejemplo: estado del pedido, reembolsos, envío, pagos o problemas de cuenta.",
+    "fr": "Pourriez-vous préciser ce dont vous avez besoin ? Par exemple : statut de commande, remboursements, livraison, paiements ou problèmes de compte.",
+    "hi": "क्या आप स्पष्ट कर सकते हैं कि आपको किस चीज़ में मदद चाहिए? उदाहरण के लिए: ऑर्डर स्थिति, रिफंड, शिपिंग, भुगतान, या खाता समस्याएँ।"
+  },
+  "fallback": {
+    "en": "I'm not sure I understood that. Could you rephrase, or ask about order status, refunds, shipping, payments, or your account?",
+    "es": "No estoy seguro de haber entendido eso. ¿Podrías reformularlo, o preguntar sobre el estado del pedido, reembolsos, envío, pagos o tu cuenta?",
+    "fr": "Je ne suis pas sûr d'avoir compris. Pourriez-vous reformuler, ou poser une question sur le statut de la commande, les remboursements, la livraison, les paiements ou votre compte ?",
+    "hi": "मुझे यकीन नहीं है कि मैं समझ पाया। क्या आप इसे दोबारा कह सकते हैं, या ऑर्डर स्थिति, रिफंड, शिपिंग, भुगतान, या अपने खाते के बारे में पूछ सकते हैं?"
+  }
+}
