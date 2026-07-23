@@ -1,0 +1,31 @@
+{
+  "symptoms": [
+    "pain", "fever", "headache", "nausea", "vomiting", "fatigue", "cough",
+    "shortness of breath", "dizziness", "rash", "swelling", "chest pain",
+    "diarrhea", "constipation", "weight loss", "weight gain", "seizure",
+    "numbness", "tingling", "blurred vision", "sore throat", "chills",
+    "itching", "bleeding", "bruising", "weakness", "confusion", "anxiety",
+    "insomnia", "loss of appetite", "joint pain", "muscle pain", "cramping",
+    "difficulty breathing", "heart palpitations", "high blood pressure",
+    "low blood pressure", "abdominal pain", "back pain"
+  ],
+  "diseases": [
+    "diabetes", "cancer", "leukemia", "asthma", "arthritis", "alzheimer's",
+    "parkinson's", "epilepsy", "stroke", "heart disease", "hypertension",
+    "obesity", "depression", "anxiety disorder", "copd", "pneumonia",
+    "tuberculosis", "hepatitis", "hiv", "aids", "influenza", "covid-19",
+    "migraine", "osteoporosis", "anemia", "lupus", "multiple sclerosis",
+    "kidney disease", "liver disease", "thyroid disease", "cystic fibrosis",
+    "sickle cell disease", "down syndrome", "autism", "adhd", "eczema",
+    "psoriasis", "glaucoma", "cataracts", "gout"
+  ],
+  "treatments": [
+    "chemotherapy", "radiation therapy", "surgery", "physical therapy",
+    "insulin", "antibiotics", "vaccine", "immunotherapy", "dialysis",
+    "transplant", "medication", "therapy", "counseling", "rehabilitation",
+    "bypass surgery", "stent", "pacemaker", "steroids", "antidepressants",
+    "antihistamines", "painkillers", "anticoagulants", "statins",
+    "bronchodilator", "inhaler", "occupational therapy", "diet and exercise",
+    "blood transfusion", "biopsy", "screening test"
+  ]
+}
