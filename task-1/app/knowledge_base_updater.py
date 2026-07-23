@@ -46,8 +46,14 @@ UPDATE_INTERVAL_MINUTES = 60  # how often to poll sources
 # Add your knowledge sources here.
 # Live web sources are convenient but can be brittle for a demo (site
 # restructuring, bot protection, JS-rendered content requests/BeautifulSoup
-# can't see). A local file source is a reliable fallback for demoing:
+# can't see). The local company dataset is included as a reliable source
+# that will always work, regardless of network conditions on demo day.
 KNOWLEDGE_SOURCES = [
+    {
+        "name": "Company Dataset (FAQ, Products, Policies)",
+        "url": "./data/customer_service_dataset.txt",
+        "type": "file"
+    },
     {
         "name": "OpenAI Blog",
         "url": "https://openai.com/blog",
@@ -58,7 +64,6 @@ KNOWLEDGE_SOURCES = [
         "url": "https://www.anthropic.com/news",
         "type": "web"
     },
-    # {"name": "Company FAQ", "url": "./data/faq.txt", "type": "file"},
 ]
 
 CUSTOMER_SERVICE_PROMPT = PromptTemplate(
