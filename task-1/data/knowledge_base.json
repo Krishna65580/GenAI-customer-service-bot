@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "source": "seed:ai_basics",
+    "title": "What is Machine Learning",
+    "text": "Machine learning is a field of AI where systems learn patterns from data instead of being explicitly programmed with rules. Common approaches include supervised learning, unsupervised learning, and reinforcement learning.",
+    "added_at": "2026-07-01T09:00:00"
+  },
+  {
+    "id": 2,
+    "source": "seed:ai_basics",
+    "title": "What is a Neural Network",
+    "text": "A neural network is a computational model made of layers of interconnected nodes (neurons) that learn to map inputs to outputs by adjusting connection weights during training, typically using backpropagation.",
+    "added_at": "2026-07-01T09:00:00"
+  },
+  {
+    "id": 3,
+    "source": "seed:ai_basics",
+    "title": "What is a Vector Database",
+    "text": "A vector database stores data as high-dimensional numerical vectors (embeddings) and supports fast similarity search, which lets applications retrieve semantically related content instead of relying only on exact keyword matches.",
+    "added_at": "2026-07-01T09:00:00"
+  },
+  {
+    "id": 4,
+    "source": "seed:ai_basics",
+    "title": "What is Retrieval-Augmented Generation",
+    "text": "Retrieval-augmented generation (RAG) combines a search step over a knowledge base with a language generation step, so a chatbot's answers are grounded in retrieved, up-to-date information rather than only what the model memorized during training.",
+    "added_at": "2026-07-01T09:00:00"
+  },
+  {
+    "id": 5,
+    "source": "seed:ai_basics",
+    "title": "What is Fine-Tuning",
+    "text": "Fine-tuning is the process of taking a pretrained model and continuing training on a smaller, task-specific dataset so it adapts to a narrower domain or style while keeping most of its general knowledge.",
+    "added_at": "2026-07-01T09:00:00"
+  },
+  {
+    "id": 6,
+    "source": "seed:ai_basics",
+    "title": "What is Prompt Engineering",
+    "text": "Prompt engineering is the practice of carefully designing the instructions and examples given to a language model to reliably elicit the desired kind of response, without changing the model's underlying weights.",
+    "added_at": "2026-07-01T09:00:00"
+  },
+  {
+    "id": 7,
+    "source": "feed:tech_news",
+    "title": "Mixture-of-Experts Models",
+    "text": "Mixture-of-experts (MoE) architectures activate only a subset of a model's parameters for each input, which lets total model capacity scale up while keeping the compute cost of each forward pass roughly constant.",
+    "added_at": "2026-07-14T01:39:26"
+  },
+  {
+    "id": 8,
+    "source": "feed:tech_news",
+    "title": "Model Context Protocol",
+    "text": "The Model Context Protocol (MCP) is an open standard that lets AI assistants connect to external tools and data sources through a common interface, instead of each integration needing custom, one-off code.",
+    "added_at": "2026-07-14T01:39:28"
+  },
+  {
+    "id": 9,
+    "source": "feed:tech_news",
+    "title": "Agentic Workflows",
+    "text": "Agentic AI workflows let a model plan multi-step tasks, call external tools, observe the results, and adjust its plan, rather than producing a single one-shot response to a prompt.",
+    "added_at": "2026-07-14T01:39:32"
+  },
+  {
+    "id": 10,
+    "source": "feed:tech_news",
+    "title": "Constitutional AI",
+    "text": "Constitutional AI is a training approach where a model critiques and revises its own outputs against a written set of principles, reducing reliance on large volumes of human-labeled feedback for alignment.",
+    "added_at": "2026-07-14T01:39:32"
+  },
+  {
+    "id": 11,
+    "source": "feed:tech_news",
+    "title": "Sparse Attention",
+    "text": "Sparse attention mechanisms restrict each token to attend to only a subset of other tokens rather than the full sequence, allowing transformer models to process much longer inputs at lower computational cost.",
+    "added_at": "2026-07-14T01:39:33"
+  }
+]
