@@ -1,72 +1,54 @@
 Source: Company FAQ
 Fetched: 2026-06-28
-
 Q: What is your return policy?
 A: We offer a 30-day return policy on all products. Items must be unused and in original packaging. To initiate a return, contact support@company.com with your order number.
-
 Q: How long does shipping take?
 A: Standard shipping takes 5-7 business days. Express shipping (2-3 days) is available at checkout for an additional fee. International orders may take 10-14 business days.
-
 Q: How do I track my order?
 A: Once your order is shipped, you will receive a tracking number via email. You can use this number on our website under "Track My Order" or directly on the carrier's website.
-
 Q: What payment methods do you accept?
 A: We accept Visa, MasterCard, American Express, PayPal, and UPI. All transactions are secured with 256-bit SSL encryption.
-
 Q: How do I cancel my order?
 A: Orders can be cancelled within 2 hours of placement. After that, the order may already be processed for shipping. Contact us immediately at support@company.com or call +1-800-123-4567.
-
 Q: Do you offer customer support 24/7?
-A: Our AI-powered chatbot is available 24/7. Human agents are available Monday–Friday, 9 AM to 6 PM IST.
-
+A: Our AI-powered chatbot is available 24/7. Human agents are available Monday-Friday, 9 AM to 6 PM IST.
 Q: How do I reset my password?
 A: Click "Forgot Password" on the login page, enter your registered email, and follow the link sent to your inbox. The link expires in 15 minutes.
-
 Q: Can I change my delivery address after placing an order?
 A: Address changes are possible within 1 hour of order placement. Contact support immediately with your order ID and the new address.
-
 Q: What should I do if I receive a damaged item?
 A: Take a photo of the damaged item and email it to support@company.com within 48 hours of delivery. We will arrange a replacement or full refund within 3-5 business days.
-
 Q: Is my personal data safe with you?
 A: Yes. We are GDPR-compliant and never sell your data to third parties. All data is encrypted at rest and in transit. See our Privacy Policy for details.
-
 ---
 Source: Product Knowledge Base
 Fetched: 2026-06-28
-
 Product: SmartHome Hub X1
 Description: A central smart home controller compatible with 200+ devices. Supports Alexa, Google Home, and Apple HomeKit.
 Price: $149.99
 Warranty: 2 years
 Support: Available via app, chat, or email.
-
 Product: WirelessPro Earbuds
 Description: Active noise-cancelling earbuds with 30-hour battery life. IPX5 water resistant. Bluetooth 5.3.
 Price: $89.99
 Warranty: 1 year
 Support: Firmware updates via companion app.
-
 Product: EcoCharge Solar Panel Kit
 Description: Portable 100W solar panel kit for off-grid charging. Compatible with laptops, phones, and power stations.
 Price: $199.99
 Warranty: 5 years
 Support: Setup guide included; email support available.
-
 ---
 Source: Company Policies
 Fetched: 2026-06-28
-
 Refund Policy:
 - Full refund within 30 days of purchase for unused items.
 - Partial refund (50%) for opened items returned within 15 days.
 - No refund after 30 days unless product is defective.
-
 Warranty Policy:
 - All products come with a minimum 1-year manufacturer warranty.
 - Warranty covers manufacturing defects, not physical damage.
 - To claim warranty, provide proof of purchase and product serial number.
-
 Loyalty Program:
 - Earn 1 point per $1 spent.
 - 100 points = $1 discount on next purchase.
